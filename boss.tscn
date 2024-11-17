@@ -1,0 +1,172 @@
+[gd_scene load_steps=10 format=3 uid="uid://cli5dqwvwp8gc"]
+
+[ext_resource type="Script" path="res://boss.gd" id="1_c8yx3"]
+[ext_resource type="Texture2D" uid="uid://gw3iwvo1x1u8" path="res://assets/sprites/creature-sheet.png" id="1_k2op6"]
+[ext_resource type="Texture2D" uid="uid://cm142hc3tlhe6" path="res://assets/sprites/pirate_bomb/7_objects/1_bomb/1-bomb off/1.png" id="2_8dc2q"]
+[ext_resource type="Texture2D" uid="uid://bk4vg41bbyo0c" path="res://assets/sprites/pirate_bomb/7_objects/1_bomb/2-bomb on/2.png" id="3_fbewm"]
+[ext_resource type="Texture2D" uid="uid://biypadubea25u" path="res://assets/sprites/pirate_bomb/7_objects/1_bomb/2-bomb on/3.png" id="4_sabav"]
+[ext_resource type="Texture2D" uid="uid://b7hk0pkop15b8" path="res://assets/sprites/pirate_bomb/7_objects/1_bomb/2-bomb on/4.png" id="5_1gq5r"]
+
+[sub_resource type="Animation" id="Animation_uokx8"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Creature-sheet:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 29)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("bomb1:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-357, 13)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("bomb2:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-374, -35)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("bomb3:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-437, -34)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("bomb4:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-441, -32)]
+}
+
+[sub_resource type="Animation" id="Animation_6ijk1"]
+resource_name = "Reposo"
+length = 1.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Creature-sheet:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(1, 29), Vector2(-20, 29), Vector2(3, 20)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("bomb1:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(1.2),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-357, 13)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("bomb2:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(1.2),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-374, -35)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("bomb3:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(1.3),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-7, 24)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("bomb4:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(1.3),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-441, -32)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_kxbg0"]
+_data = {
+"RESET": SubResource("Animation_uokx8"),
+"Reposo": SubResource("Animation_6ijk1")
+}
+
+[node name="BOSS" type="Node2D"]
+script = ExtResource("1_c8yx3")
+
+[node name="Creature-sheet" type="Sprite2D" parent="."]
+position = Vector2(1, 29)
+scale = Vector2(4.72917, 8.20833)
+texture = ExtResource("1_k2op6")
+
+[node name="bomb1" type="Sprite2D" parent="."]
+position = Vector2(-357, 13)
+texture = ExtResource("2_8dc2q")
+
+[node name="bomb2" type="Sprite2D" parent="."]
+position = Vector2(-374, -35)
+texture = ExtResource("3_fbewm")
+
+[node name="bomb3" type="Sprite2D" parent="."]
+position = Vector2(-437, -34)
+texture = ExtResource("4_sabav")
+
+[node name="bomb4" type="Sprite2D" parent="."]
+position = Vector2(-441, -32)
+texture = ExtResource("5_1gq5r")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_kxbg0")
+}
+autoplay = "Reposo"
