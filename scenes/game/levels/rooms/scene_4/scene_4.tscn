@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=3 uid="uid://b1d750o6hts76"]
 
 [ext_resource type="TileSet" uid="uid://bx1rsqucrwm2i" path="res://assets/resources/bg_tile_set.tres" id="1_hfyhc"]
-[ext_resource type="PackedScene" uid="uid://ca3ueo0yewjov" path="res://scenes/game/characters/main_character/main_character.tscn" id="2_84hbb"]
-[ext_resource type="PackedScene" uid="uid://8rbt5lmdrp0s" path="res://scenes/game/camera/camera.tscn" id="3_nmdxo"]
+[ext_resource type="PackedScene" uid="uid://ca3ueo0yewjov" path="res://scenes_1/game/characters/main_character/main_character.tscn" id="2_84hbb"]
+[ext_resource type="PackedScene" uid="uid://8rbt5lmdrp0s" path="res://scenes_1/game/camera/camera.tscn" id="3_nmdxo"]
 [ext_resource type="FontFile" uid="uid://dregmkvncw55k" path="res://assets/fonts/press_Sstart_2p/PressStart2P-Regular.ttf" id="4_iuhba"]
 [ext_resource type="Texture2D" uid="uid://gw3iwvo1x1u8" path="res://assets/sprites/creature-sheet.png" id="5_cwhd8"]
 

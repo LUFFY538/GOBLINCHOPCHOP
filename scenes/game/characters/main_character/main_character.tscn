@@ -396,7 +396,7 @@ script = ExtResource("3_odvu6")
 position = Vector2(2, 0)
 scale = Vector2(0.299181, 0.281947)
 sprite_frames = SubResource("SpriteFrames_sohxe")
-animation = &"idle_with_sword"
+animation = &"attack_air_1"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-1, -2.5)
