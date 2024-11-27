@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://6olsalquvsu0"
-path="res://.godot/imported/Preview (Variation A).png-96199650da41c910e0117b6f9bbddb3d.ctex"
+uid="uid://bsd4ts3jqht4y"
+path="res://.godot/imported/No Out (24x8).png-1d27761129c703db632bc3d6be3a4096.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes_1/game/levels/rooms/scene_3/Preview (Variation A).png"
-dest_files=["res://.godot/imported/Preview (Variation A).png-96199650da41c910e0117b6f9bbddb3d.ctex"]
+source_file="res://Sprites/13-Dialogue Boxes/No Out (24x8).png"
+dest_files=["res://.godot/imported/No Out (24x8).png-1d27761129c703db632bc3d6be3a4096.ctex"]
 
 [params]
 

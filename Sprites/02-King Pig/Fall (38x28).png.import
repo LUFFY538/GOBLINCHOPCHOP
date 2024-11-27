@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://6olsalquvsu0"
-path="res://.godot/imported/Preview (Variation A).png-96199650da41c910e0117b6f9bbddb3d.ctex"
+uid="uid://dwiky207bdx4q"
+path="res://.godot/imported/Fall (38x28).png-9ddd1a2f4131dad531e6507c05b0c310.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes_1/game/levels/rooms/scene_3/Preview (Variation A).png"
-dest_files=["res://.godot/imported/Preview (Variation A).png-96199650da41c910e0117b6f9bbddb3d.ctex"]
+source_file="res://Sprites/02-King Pig/Fall (38x28).png"
+dest_files=["res://.godot/imported/Fall (38x28).png-9ddd1a2f4131dad531e6507c05b0c310.ctex"]
 
 [params]
 

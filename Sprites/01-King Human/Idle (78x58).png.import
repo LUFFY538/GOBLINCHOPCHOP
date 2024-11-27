@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://6olsalquvsu0"
-path="res://.godot/imported/Preview (Variation A).png-96199650da41c910e0117b6f9bbddb3d.ctex"
+uid="uid://mulionqfrwcw"
+path="res://.godot/imported/Idle (78x58).png-ff8a7bccfd5a0c70e976e7d5f9da104f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes_1/game/levels/rooms/scene_3/Preview (Variation A).png"
-dest_files=["res://.godot/imported/Preview (Variation A).png-96199650da41c910e0117b6f9bbddb3d.ctex"]
+source_file="res://Sprites/01-King Human/Idle (78x58).png"
+dest_files=["res://.godot/imported/Idle (78x58).png-ff8a7bccfd5a0c70e976e7d5f9da104f.ctex"]
 
 [params]
 

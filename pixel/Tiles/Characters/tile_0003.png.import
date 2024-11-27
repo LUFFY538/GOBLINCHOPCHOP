@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://6olsalquvsu0"
-path="res://.godot/imported/Preview (Variation A).png-96199650da41c910e0117b6f9bbddb3d.ctex"
+uid="uid://b0at707l35mkn"
+path="res://.godot/imported/tile_0003.png-457973d4868072d5c1a26bbc5336fc09.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes_1/game/levels/rooms/scene_3/Preview (Variation A).png"
-dest_files=["res://.godot/imported/Preview (Variation A).png-96199650da41c910e0117b6f9bbddb3d.ctex"]
+source_file="res://pixel/Tiles/Characters/tile_0003.png"
+dest_files=["res://.godot/imported/tile_0003.png-457973d4868072d5c1a26bbc5336fc09.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://6olsalquvsu0"
-path="res://.godot/imported/Preview (Variation A).png-96199650da41c910e0117b6f9bbddb3d.ctex"
+uid="uid://bpp32k8yyg6if"
+path="res://.godot/imported/Looking Out (26x20).png-42bab7949348c4342ef588b7696fa408.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes_1/game/levels/rooms/scene_3/Preview (Variation A).png"
-dest_files=["res://.godot/imported/Preview (Variation A).png-96199650da41c910e0117b6f9bbddb3d.ctex"]
+source_file="res://Sprites/06-Pig Hide in the Box/Looking Out (26x20).png"
+dest_files=["res://.godot/imported/Looking Out (26x20).png-42bab7949348c4342ef588b7696fa408.ctex"]
 
 [params]
 

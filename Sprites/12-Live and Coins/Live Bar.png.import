@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://6olsalquvsu0"
-path="res://.godot/imported/Preview (Variation A).png-96199650da41c910e0117b6f9bbddb3d.ctex"
+uid="uid://ceqmgrt7ttw0c"
+path="res://.godot/imported/Live Bar.png-6faf96ffe93e7476fd05ab99b5d0e739.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes_1/game/levels/rooms/scene_3/Preview (Variation A).png"
-dest_files=["res://.godot/imported/Preview (Variation A).png-96199650da41c910e0117b6f9bbddb3d.ctex"]
+source_file="res://Sprites/12-Live and Coins/Live Bar.png"
+dest_files=["res://.godot/imported/Live Bar.png-6faf96ffe93e7476fd05ab99b5d0e739.ctex"]
 
 [params]
 

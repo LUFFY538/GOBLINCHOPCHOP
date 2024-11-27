@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://6olsalquvsu0"
-path="res://.godot/imported/Preview (Variation A).png-96199650da41c910e0117b6f9bbddb3d.ctex"
+uid="uid://ydv2xtr6o5ei"
+path="res://.godot/imported/Ground (78x58).png-49174421c6b534b43ae5b8cca749e66d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes_1/game/levels/rooms/scene_3/Preview (Variation A).png"
-dest_files=["res://.godot/imported/Preview (Variation A).png-96199650da41c910e0117b6f9bbddb3d.ctex"]
+source_file="res://Sprites/01-King Human/Ground (78x58).png"
+dest_files=["res://.godot/imported/Ground (78x58).png-49174421c6b534b43ae5b8cca749e66d.ctex"]
 
 [params]
 

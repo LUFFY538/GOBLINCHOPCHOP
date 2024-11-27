@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://6olsalquvsu0"
-path="res://.godot/imported/Preview (Variation A).png-96199650da41c910e0117b6f9bbddb3d.ctex"
+uid="uid://bwmltfinkw68m"
+path="res://.godot/imported/Boom Out (24x8).png-aaea9d54d35a3f56b79e60a01558ba3f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes_1/game/levels/rooms/scene_3/Preview (Variation A).png"
-dest_files=["res://.godot/imported/Preview (Variation A).png-96199650da41c910e0117b6f9bbddb3d.ctex"]
+source_file="res://Sprites/13-Dialogue Boxes/Boom Out (24x8).png"
+dest_files=["res://.godot/imported/Boom Out (24x8).png-aaea9d54d35a3f56b79e60a01558ba3f.ctex"]
 
 [params]
 
