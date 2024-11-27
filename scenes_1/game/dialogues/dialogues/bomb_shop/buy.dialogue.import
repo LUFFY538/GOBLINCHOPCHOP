@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_8"
+type="Resource"
+uid="uid://bsrydnm3knldk"
+path="res://.godot/imported/buy.dialogue-fd4f39438044b488e23dec4c3c312839.tres"
+
+[deps]
+
+source_file="res://scenes_1/game/dialogues/dialogues/bomb_shop/buy.dialogue"
+dest_files=["res://.godot/imported/buy.dialogue-fd4f39438044b488e23dec4c3c312839.tres"]
+
+[params]
+
+defaults=true

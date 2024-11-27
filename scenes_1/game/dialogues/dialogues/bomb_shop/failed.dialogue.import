@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_8"
+type="Resource"
+uid="uid://c75j0ypg50kai"
+path="res://.godot/imported/failed.dialogue-856c70798e4e9b0eb03bbf54e09d2339.tres"
+
+[deps]
+
+source_file="res://scenes_1/game/dialogues/dialogues/bomb_shop/failed.dialogue"
+dest_files=["res://.godot/imported/failed.dialogue-856c70798e4e9b0eb03bbf54e09d2339.tres"]
+
+[params]
+
+defaults=true
