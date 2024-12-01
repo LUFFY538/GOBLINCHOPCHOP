@@ -1,6 +1,6 @@
 [gd_scene load_steps=24 format=3 uid="uid://bki2kbt7fo6eh"]
 
-[ext_resource type="PackedScene" uid="uid://ca3ueo0yewjov" path="res://scenes_1/game/characters/main_character/main_character.tscn" id="1_ipubi"]
+[ext_resource type="PackedScene" uid="uid://ca3ueo0yewjov" path="res://scenes__1/game/characters/main_character/main_character.tscn" id="1_ipubi"]
 [ext_resource type="Texture2D" uid="uid://cg4u52161cun0" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/background/small_cloud_3.png" id="2_dren3"]
 [ext_resource type="Texture2D" uid="uid://dlbgnp6ycaxkn" path="res://assets/New_sprites/Circulo.webp" id="2_oidio"]
 [ext_resource type="Texture2D" uid="uid://c8apilaqosli4" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/background/additional_sky.png" id="3_jfo4x"]
