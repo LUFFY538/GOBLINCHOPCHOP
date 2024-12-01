@@ -589,8 +589,7 @@ animations = [{
 "speed": 8.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_q04ya"]
-size = Vector2(24, 25)
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mr27g"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_cwldb"]
 animations = [{
@@ -711,13 +710,12 @@ script = ExtResource("3_odvu6")
 
 [node name="Animation" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_sohxe")
-animation = &"dead_hit"
-frame = 7
-frame_progress = 1.0
+animation = &"run_with_sword"
+frame_progress = 0.717112
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-1, -2.5)
-shape = SubResource("RectangleShape2D_q04ya")
+position = Vector2(2, 1)
+shape = SubResource("CapsuleShape2D_mr27g")
 
 [node name="Effects" type="AnimatedSprite2D" parent="."]
 visible = false

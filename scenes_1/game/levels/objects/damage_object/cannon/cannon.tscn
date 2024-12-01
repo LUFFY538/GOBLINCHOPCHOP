@@ -112,6 +112,8 @@ shape = SubResource("RectangleShape2D_ktbri")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_h5nvd")
 animation = &"fire"
+frame = 5
+frame_progress = 1.0
 
 [node name="AnimatedSprite2DEffects" type="AnimatedSprite2D" parent="."]
 position = Vector2(-25, -1)

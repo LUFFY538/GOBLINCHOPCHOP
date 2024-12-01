@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://bnjuaik37o31x"]
+
+[ext_resource type="Script" path="res://torreta.gd" id="1_jdqnm"]
+[ext_resource type="PackedScene" uid="uid://cu5us2e3ay3x2" path="res://proyectil.tscn" id="2_46ysi"]
+[ext_resource type="Texture2D" uid="uid://l0j5qgf0uft0" path="res://assets/New_spri/2D Sci-Fi Turret Pack/3-Turrets/Turret2Base.png" id="3_c10mp"]
+[ext_resource type="Texture2D" uid="uid://c2ons7t40h06o" path="res://assets/New_spri/2D Sci-Fi Turret Pack/3-Turrets/Turret2Top.png" id="4_1mtwr"]
+
+[node name="Torreta" type="Node2D"]
+script = ExtResource("1_jdqnm")
+proyectil_escena = ExtResource("2_46ysi")
+
+[node name="Base" type="Sprite2D" parent="."]
+texture = ExtResource("3_c10mp")
+
+[node name="Pivote_del_cañon" type="Node2D" parent="."]
+
+[node name="Cañon" type="Sprite2D" parent="Pivote_del_cañon"]
+position = Vector2(0, 1)
+texture = ExtResource("4_1mtwr")
+
+[node name="Salida" type="Node2D" parent="Pivote_del_cañon"]
+position = Vector2(-194, -3)
