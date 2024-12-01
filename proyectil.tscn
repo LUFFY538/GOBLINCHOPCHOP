@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://cu5us2e3ay3x2"]
+
+[ext_resource type="Script" path="res://proyectil.tscn.gd" id="1_ne0d8"]
+[ext_resource type="Texture2D" uid="uid://drtlyms8rxrfc" path="res://assets/New_sprites/Tiny Swords (Update 010)/Deco/04.png" id="2_syn20"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7a4j1"]
+
+[node name="Proyectil" type="Area2D"]
+script = ExtResource("1_ne0d8")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_syn20")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_7a4j1")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

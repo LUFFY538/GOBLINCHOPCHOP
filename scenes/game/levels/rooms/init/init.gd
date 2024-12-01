@@ -8,4 +8,3 @@ extends Node2D
 func _ready():
 	# Mostramos el menú principal
 	MainMenu.show_menu(true)
-
