@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://hfmcwfjsvaf8"]
+
+[sub_resource type="GDScript" id="GDScript_cs1ki"]
+script/source = "extends Node2D
+## Clase que controla la escena inicial
+## 
+## Muestra el menú principal apagado desde la escena Splash
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	# Mostramos el menú principal
+	MainMenu.show_menu(true)
+"
+
+[node name="Init" type="Node2D"]
+script = SubResource("GDScript_cs1ki")
